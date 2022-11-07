@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<big>
+    <html>情報を入力してください</html>
+</big>
+
+<?php
+
+if($error_message) {
+
+    echo $error_message;
+}
+?>
+ 
+<form action="index.php" method="POST" data-dashlane-rid="152658865df60140" data-form-type="login">
+
+    <p>ログインID：<input type="text" name="user_name" data-dashlane-rid="91242320e19669bb" data-kwimpalastatus="alive" data-kwimpalaid="1667822341403-0" data-form-type="username"></p>
+
+    <p>パスワード：<input type="password" name="password" data-dashlane-rid="1a21ce463ee96e62" data-kwimpalastatus="alive" data-kwimpalaid="1667822341403-1" data-form-type="password"></p>
+
+<u>
+    <body>間違えた場合、アカウントが消去されます。</body>
+</u>
+
+
+<p>
+    <input type="button" onclick="location.href='https://www.instagram.com/'" value="ログイン">
+</p>
+
+</form>
